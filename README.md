@@ -94,7 +94,7 @@ If you have written the above features in to your app, you can continue to add t
   - [BCrypt](https://github.com/codahale/bcrypt-ruby)
   - [A pure Sinatra example](https://gist.github.com/amscotti/1384524)
   - [**An incredibly useful plugin for Sequel**](https://github.com/mlen/sequel_secure_password)
-2. User Sinatra's [`before` filter](http://www.sinatrarb.com/intro.html#Filters) to authorize users' requests... For example:
+2. Use Sinatra's [`before` filter](http://www.sinatrarb.com/intro.html#Filters) to authorize users' requests... For example:
 
 ```ruby
 before '/recipes' do
