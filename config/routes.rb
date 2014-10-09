@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   root "welcome#index"
 
-  get "/login" => "sessions#new"
+  get "/login"          => "sessions#new"
+  get "/oauth2callback" => "sessions#oauth_create"
   resource  :session, only: [:create, :destroy]
 
   resources :users do
