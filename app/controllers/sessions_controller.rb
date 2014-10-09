@@ -1,7 +1,6 @@
 class SessionsController < ApplicationController
   def new
     set_oauth_redirect_uri_for request.host, request.port
-    @google_oauth_link = oauth_uri_with_query_params_for :Google
   end
 
   def create
