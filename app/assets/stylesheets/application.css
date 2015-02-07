@@ -14,6 +14,10 @@
  *= require_self
  */
 
+ body {
+  background-color: navyblue;
+ }
+
 .front-matter {
   width: 600px;
   margin: 0 auto;
@@ -26,5 +30,6 @@
   background-color: lightblue;
   margin: 0 auto;
   border-radius: 30px;
+  box-shadow: 10px 10px 5px #888888;
   padding: 5px 0;
 }

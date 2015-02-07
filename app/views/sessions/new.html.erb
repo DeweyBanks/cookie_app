@@ -10,6 +10,7 @@
       <%= password_field_tag(:password) %><br/>
       <%= submit_tag('Login') %>
     <% end %>
+    <h1 style="color: red"><%= flash[:error] %></h1>
   </div>
   <p><%= link_to('Sign up', new_user_path) %>
 </div>

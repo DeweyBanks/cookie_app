@@ -28,6 +28,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
+    bcrypt (3.1.7)
     builder (3.2.2)
     coderay (1.1.0)
     coffee-rails (4.0.1)
@@ -55,7 +56,7 @@ GEM
     mime-types (2.3)
     minitest (5.4.2)
     multi_json (1.10.1)
-    pg (0.17.1)
+    mysql2 (0.3.17)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -136,10 +137,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt (~> 3.1.7)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
-  pg
+  mysql2
   pry-rails
   rails (= 4.1.6)
   rspec-rails (~> 3.0.0)
