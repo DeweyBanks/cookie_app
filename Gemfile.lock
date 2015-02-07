@@ -59,12 +59,7 @@ GEM
     mime-types (2.3)
     minitest (5.4.2)
     multi_json (1.10.1)
-<<<<<<< HEAD
     mysql2 (0.3.17)
-=======
-    netrc (0.7.7)
-    pg (0.17.1)
->>>>>>> e073411298c2586e7784f23a423811ea75c903bf
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
