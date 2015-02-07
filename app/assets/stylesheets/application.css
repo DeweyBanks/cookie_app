@@ -14,15 +14,24 @@
  *= require_self
  */
 
+
  body {
   background-color: navyblue;
  }
+
+header { min-width: 400px; }
+
+header div.home    { float: left;  margin-left:  40px; }
+header div.profile { float: right; margin-right: 40px; }
+header hr          { clear: both; }
 
 .front-matter {
   width: 600px;
   margin: 0 auto;
   text-align: center;
 }
+
+.front-matter table { margin: 0 auto; }
 
 .login {
   font-size: 0.8em;
@@ -33,3 +42,9 @@
   box-shadow: 10px 10px 5px #888888;
   padding: 5px 0;
 }
+
+
+ul {
+  list-style-type: none;
+}
+

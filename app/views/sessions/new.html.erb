@@ -10,7 +10,11 @@
       <%= password_field_tag(:password) %><br/>
       <%= submit_tag('Login') %>
     <% end %>
-    <h1 style="color: red"><%= flash[:error] %></h1>
+
+    <p>... or <%= link_to('log in with Google.', oauth_uri_with_query_params_for(:Google)) %></p>
+    <p style="color: red"><%= flash[:error] %></p>
+    <p style="color: green;"><strong><%= flash[:notice] %></strong><p>
   </div>
-  <p><%= link_to('Sign up', new_user_path) %>
+  <p><%= link_to('Sign up', new_user_path) %></p>
+
 </div>
